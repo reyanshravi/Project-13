@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: #7030CC;
+}
+.main{
+    color: #fff;
+}
+/* Navbar CSS */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+  }
+.navbar .logo{
+    height: 40px;
+  }
+.navbar ul{
+    display: flex;
+    align-items: center;
+  }
+.navbar  .list li{
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+.navbar .button-small{
+    background-color: #1BBCEF;
+    border: 0px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #fff;
+  }
+
+/* CSS for main */
+.content{
+    padding: 0px 0px 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.content h2{
+    padding-top: 80px;
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: 2px;
+}
+.content p{
+    padding-top: 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.content img{
+    float: right;
+    height: 550px;
+}
+
+/* CSS for middle */
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:80px 120px 0px 0px ;
+    background-color: #fff;
+}
+.middle img{
+    height: 700px;
+}
+.middle .right{
+    float: left;
+}
+.middle h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.middle h3{
+    padding: 20px 30px;
+    letter-spacing: 1px;
+}
+.icon{
+    padding-left: 0px;
+    display: flex;
+    align-items: baseline;
+}
+.icon i{
+    padding-left: 12px;
+    transform: scale(-1,1);
+}
+.middle p{
+    line-height: 25px;
+}
+
+/* CSS for bottom */
+.bottom{
+    background-color: #fff;
+}
+.bottom> .heading{
+    text-align: center;
+    font-size: 30px;
+}
+.bottom> .card{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom> .card> .cards{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #fff;
+    box-shadow: grey 5px 5px 5px;
+    border-radius: 20px;
+    margin:0px 10px;
+    line-height: 20px;
+}
+.bottom> .card img{
+    padding: 20px;
+    border-radius: 30%; 
+    height: 50px;
+}
+.cards .code{
+    background-color: antiquewhite;
+}
+.cards .graph{
+    background-color: #FBF0EE;
+}
+.cards .secured{
+    background-color: #E9F4F6;
+}
+.cards .support{
+    background-color: #F2E7F5;
+}
+
+.bottom> .card> .cards> h3{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.bottom> .card> .cards> p{
+    font-size: 15px;
+    color: grey;
+}
