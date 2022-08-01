@@ -22,4 +22,4 @@
 
 #### Screenshot
 
-![Desktop](./reyansh-ravi-proj-13.png)
+![Desktop](./13.png)
